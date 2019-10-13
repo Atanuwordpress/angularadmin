@@ -1,0 +1,6 @@
+ng add @angular/material
+
+
+npm install @amcharts/amcharts4
+npm install @amcharts/amcharts4-geodata
+
