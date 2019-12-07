@@ -1,0 +1,27 @@
+<ul>
+  <li *ngFor="let photos of photo.slice(0,5);">
+    Photo: {{photos.title}}
+    <br/>
+    albumId:{{photos.albumId}}
+    <br/>
+    <img src={{photos.thumbnailUrl}} />
+    
+
+  </li>
+</ul>
+
+<ul>
+  <li *ngFor="let employees of employee.slice(0,5);">
+   
+    Emp ID: {{employees.id}}
+    <br/>
+    Emp Name:{{employees.employee_name}}
+    <br/>
+    Emp Age:{{employees.employee_age}}
+    <br/>
+    Emp Salary:{{employees.employee_salary}}
+    <br/>
+    Emp Pic<img src={{employees.profile_image}} />
+
+  </li>
+</ul>
